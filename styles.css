@@ -84,10 +84,15 @@ li {
 }
 
 section:nth-child(even) {
-  background-color: #f8f8f8;
+  background-color: #282828;
 }
 
 .section__title {
+  margin-bottom: 20px;
+}
+
+.section__title2 {
+  color: #fff;
   margin-bottom: 20px;
 }
 
@@ -287,6 +292,7 @@ nav {
 }
 
 .language__name {
+  color: #fff;
   position: absolute;
   bottom: 0;
   transform: scale(0);
